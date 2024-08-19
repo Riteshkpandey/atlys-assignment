@@ -2,6 +2,7 @@ import React, { useState, useCallback } from "react";
 import "../login/login.css";
 import UserRegister from "./userRegister";
 import UserLogin from "./userLogin";
+import "../../App.css";
 
 function UserAuth({ handlePostClick }) {
   const [register, setRegister] = useState(true);

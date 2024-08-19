@@ -1,5 +1,6 @@
 import React from "react";
 import UserRegister from "./userRegister";
+import "../../App.css";
 
 function Signup({ handleRegister }) {
   const handleLogin = () => {

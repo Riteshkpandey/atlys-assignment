@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./home.css";
 import postComments from "../../constant/data";
 import UserAuth from "../auth/userAuth.js";
+import "../../App.css";
 
 function Home() {
   const [showAuthPopup, setShowAuthPopup] = useState(false);

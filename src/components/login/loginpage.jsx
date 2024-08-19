@@ -1,6 +1,7 @@
 import React from "react";
 import "./login.css";
 import UserLogin from "../auth/userLogin";
+import "../../App.css";
 
 const Login = ({ handleRegister }) => {
   const handleLogin = () => {
