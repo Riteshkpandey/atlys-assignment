@@ -1,0 +1,81 @@
+.form-super-title {
+  display: flex;
+  color: #6b6c70 !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 16.94px !important;
+  letter-spacing: 0.03em !important;
+  text-align: center;
+  justify-content: center;
+}
+.form-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.78px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  margin: 8px 0px 45px 0px;
+}
+.form-input-title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #c5c7ca;
+}
+.form-password-style {
+  display: flex;
+  justify-content: space-between;
+}
+.form-input-forgotpassword-title {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.52px;
+  text-align: right;
+  color: #c5c7ca;
+  cursor: pointer;
+}
+.form-not-register {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+  color: #7f8084;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #181818;
+}
+
+.form-logo {
+  margin-bottom: 40px;
+}
+
+.form-input {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #444;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.form-title-module {
+  position: relative;
+  left: 50%;
+  top: -4%;
+}
+
+.login-register-link {
+  color: white;
+  cursor: pointer;
+}
+.form-close-logo {
+  cursor: pointer;
+}
