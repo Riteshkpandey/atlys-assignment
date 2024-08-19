@@ -56,31 +56,6 @@ function Home() {
           </div>
         </div>
       ))}
-      {/* {postComments.map((item) => (
-        <div className="post-box" key={item.id}>
-          <div className="post-style">
-            <img src={item.src} alt="person-image" className="post-img" />
-            <div>
-              <div className="post-style-name">{item.name}</div>
-              <span className="post-timestamp">{item.timing} </span>
-            </div>
-            <div className="dots-style">
-              <img src="https://bit.ly/3AuPADt" alt="dots" />
-            </div>
-          </div>
-          <div className="post-input">
-            <p className="post-home-text">{item.comment}</p>
-          </div>
-          <div className="post-comment-style">
-            <img
-              className="post-img"
-              src="https://bit.ly/3STOwj4"
-              alt="chat-bubble"
-            />
-            <div className="post-timestamp">{item.totalComment}</div>
-          </div>
-        </div>
-      ))} */}
 
       {showAuthPopup && (
         <div className="popup-overlay">
