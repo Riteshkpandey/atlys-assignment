@@ -31,7 +31,38 @@ function Home() {
           </button>
         </div>
       </div>
-      {postComments.map((item) => (
+      <div className="post-box">
+        <div className="post-style">
+          <img
+            src="https://bit.ly/3Mdqgo0"
+            alt="person-image"
+            className="post-img"
+          />
+          <div>
+            <div className="post-style-name">Theresa Webb</div>
+            <span className="post-timestamp">5 mins ago </span>
+          </div>
+          <div className="dots-style">
+            <img src="https://bit.ly/3AuPADt" alt="dots" />
+          </div>
+        </div>
+        <div className="post-input">
+          <p className="post-home-text">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+        <div className="post-comment-style">
+          <img
+            className="post-img"
+            src="https://bit.ly/3STOwj4"
+            alt="chat-bubble"
+          />
+          <div className="post-timestamp">24 comments</div>
+        </div>
+      </div>
+      {/* {postComments.map((item) => (
         <div className="post-box" key={item.id}>
           <div className="post-style">
             <img src={item.src} alt="person-image" className="post-img" />
@@ -55,7 +86,7 @@ function Home() {
             <div className="post-timestamp">{item.totalComment}</div>
           </div>
         </div>
-      ))}
+      ))} */}
 
       {showAuthPopup && (
         <div className="popup-overlay">
