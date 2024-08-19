@@ -1,7 +1,6 @@
 import React from "react";
-import { Logo, CloseButton } from "../../public/assets";
 import "./login.css";
-import UserLogin from "./userLogin";
+import UserLogin from "../auth/userLogin";
 
 const Login = ({ handleRegister }) => {
   const handleLogin = () => {
@@ -10,7 +9,7 @@ const Login = ({ handleRegister }) => {
   return (
     <>
       <div className="form-container">
-        <img src={Logo} alt="logo" className="form-logo" />
+        <img src="https://bit.ly/4dF4tSc" alt="logo" className="form-logo" />
         <UserLogin />
       </div>
     </>

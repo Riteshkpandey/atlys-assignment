@@ -1,7 +1,5 @@
 import React, { useState, useCallback } from "react";
-import "./login.css";
-import Login from "./loginpage";
-import Signup from "./Signup";
+import "../login/login.css";
 import UserRegister from "./userRegister";
 import UserLogin from "./userLogin";
 

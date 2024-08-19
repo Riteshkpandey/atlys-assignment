@@ -1,5 +1,4 @@
 import React from "react";
-import { Logo, CloseButton } from "../../public/assets";
 
 const UserRegister = ({ handleLogin, handlePostClick }) => {
   const handleLogins = () => {
@@ -13,8 +12,8 @@ const UserRegister = ({ handleLogin, handlePostClick }) => {
       {handlePostClick && (
         <div className="form-title-module">
           <img
-            src={CloseButton}
-            alt="logo"
+            src="https://bit.ly/4dRyDSh"
+            alt="logoclose"
             onClick={handleCloseEvent}
             className="form-close-logo"
           />

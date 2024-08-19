@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import { person_1, dots, chat_bubble } from "../../public/assets";
 import "./home.css";
-import postComments from "../constant/data";
-import UserAuth from "./userAuth.js";
+import postComments from "../../constant/data";
+import UserAuth from "../auth/userAuth.js";
 
 function Home() {
   const [showAuthPopup, setShowAuthPopup] = useState(false);
@@ -43,14 +41,18 @@ function Home() {
                 <span className="post-timestamp">{item.timing} </span>
               </div>
               <div className="dots-style">
-                <img src={dots} alt="dots" />
+                <img src="https://bit.ly/3AuPADt" alt="dots" />
               </div>
             </div>
             <div className="post-input">
               <p className="post-home-text">{item.comment}</p>
             </div>
             <div className="post-comment-style">
-              <img className="post-img" src={chat_bubble} alt="chat-bubble" />
+              <img
+                className="post-img"
+                src="https://bit.ly/3STOwj4"
+                alt="chat-bubble"
+              />
               <div className="post-timestamp">{item.totalComment}</div>
             </div>
           </div>

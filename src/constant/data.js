@@ -1,9 +1,7 @@
-import { person_1, person_2 } from "../../public/assets";
-
 const postComments = [
   {
     id: 0,
-    src: person_1,
+    src: "https://bit.ly/3Mdqgo0",
     name: "Theresa Webb",
     timing: "5 mins ago",
     comment:
@@ -12,7 +10,7 @@ const postComments = [
   },
   {
     id: 1,
-    src: person_2,
+    src: "https://bit.ly/3MbRHib",
     name: "Marvin McKinney",
     timing: "5 mins ago",
     comment:
